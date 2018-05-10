@@ -1,4 +1,4 @@
 spring:
   datasource:
     schema: classpath:/mysql.sql
-    url: jdbc:mysql://47.96.173.142:3306/paascloud_zipkin?characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://127.0.0.1:3306/paascloud_zipkin?characterEncoding=utf8&useSSL=false

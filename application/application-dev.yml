@@ -7,13 +7,13 @@ spring:
     username: guest
     password: guest
   redis:
-    host: 47.96.173.142
-    password: paascloud@redis
+    host: 118.24.75.162
+    password: 123456
     port: 6379
     timeout: 0
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    username: paascloud
+    username: root
     password: 123456
     type: com.alibaba.druid.pool.DruidDataSource
     initial-size: 10
@@ -73,9 +73,9 @@ paascloud:
       expiredRemainMinutes: 20
       expiredMinutes: 120
   mail:
-    host: smtp.sina.com
-    username: 'your email address'
-    password: 'your email password'
+    host: smtp.163.com
+    username: xa_zbl@163.com
+    password: a.o7a@xa
     test-connection: false
     properties:
       mail:
